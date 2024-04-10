@@ -1,0 +1,17 @@
+.Header {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header img {
+  width: 30%;
+}
+.Header .mesinfos {
+  margin: 20px;
+}
+.Header .mesinfos i {
+  margin-left: 15px;
+  font-size: 25px;
+  color: rgb(227, 167, 38);
+}/*# sourceMappingURL=Navbar.css.map */

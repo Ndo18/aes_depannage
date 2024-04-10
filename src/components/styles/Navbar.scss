@@ -1,0 +1,19 @@
+.Header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: 30%;
+    }
+
+    .mesinfos{
+        margin: 20px;
+        i{
+            margin-left: 15px;
+            font-size: 25px;
+            color: rgb(227, 167, 38);
+        }
+    }
+}
