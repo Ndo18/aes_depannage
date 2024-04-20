@@ -1,6 +1,8 @@
 // import './App.css'
 import Navbar from './components/Navbar'
 import Slideshow from './components/Slideshow'
+import Description from './components/Description'
+import ContactForm from './components/ContactForm'
 
 function App() {
   
@@ -8,7 +10,8 @@ function App() {
     <>
     <Navbar />
     <Slideshow />
-
+    <Description />
+    <ContactForm />
     </>
   )
 }

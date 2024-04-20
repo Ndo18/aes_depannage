@@ -9,7 +9,7 @@ function Slideshow() {
         <Carousel autoPlay interval={3000} infiniteLoop showThumbs={false} showStatus={false} swipeable={true}>
             {diapophotos.map(slides => (
                 <div key={slides.id}>
-                    <img src={slides.url} alt="" />
+                    <img src={slides.url} alt={slides.alt} />
                 </div>
             ))}
         </Carousel>
