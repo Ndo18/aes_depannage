@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Slideshow from './components/Slideshow'
 import Description from './components/Description'
 import ContactForm from './components/ContactForm'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <Slideshow />
     <Description />
     <ContactForm />
+    <Footer />
     </>
   )
 }

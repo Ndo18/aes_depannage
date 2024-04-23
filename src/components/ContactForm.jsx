@@ -1,8 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
+import './styles/ContactForm.css'
 
 function ContactForm(){
     return(
         <div id='Contact' className='formulaire'>
-        <h3>Contactez-nous :</h3>
+        <h3>Besoin d'informations ? <br /> Contactez nous :</h3>
         <form className='contactform'>
           <label>Nom</label>
           <input type="text" name="user_name" placeholder='Votre nom'/>

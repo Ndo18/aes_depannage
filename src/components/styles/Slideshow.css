@@ -1,1 +1,8 @@
-/*# sourceMappingURL=Slideshow.css.map */
+.slidesimg-container {
+  width: 100%;
+}
+.slidesimg-container .slidesimg {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 25vh;
+}/*# sourceMappingURL=Slideshow.css.map */

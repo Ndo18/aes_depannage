@@ -6,10 +6,10 @@ import './styles/Slideshow.css'
 function Slideshow() {
 
     return (
-        <Carousel autoPlay interval={3000} infiniteLoop showThumbs={false} showStatus={false} swipeable={true}>
+        <Carousel autoPlay interval={3000} infiniteLoop showThumbs={false} showStatus={false} swipeable={true} showArrows={false}>
             {diapophotos.map(slides => (
-                <div key={slides.id}>
-                    <img src={slides.url} alt={slides.alt} />
+                <div key={slides.id} className='slidesimg-container'>
+                    <img src={slides.url} alt={slides.alt} className='slidesimg' />
                 </div>
             ))}
         </Carousel>

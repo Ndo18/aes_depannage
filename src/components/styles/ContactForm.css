@@ -1,0 +1,71 @@
+.formulaire {
+  padding: 50px;
+  background-color: rgb(227, 167, 38);
+  box-shadow: 0px -4px 3px rgba(0, 0, 0, 0.1490196078);
+}
+.formulaire h3 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 50%;
+}
+.formulaire .error {
+  color: red;
+  border: 2px red solid;
+  padding: 10px;
+  background-color: rgb(254, 152, 152);
+  text-align: center;
+  width: 48%;
+  margin: auto;
+  margin-top: 10px;
+}
+.formulaire .success {
+  color: green;
+  border: 2px green solid;
+  padding: 10px;
+  background-color: rgb(106, 217, 98);
+  text-align: center;
+  width: 48%;
+  margin: auto;
+  margin-top: 10px;
+}
+.formulaire .submitbutton {
+  background-color: black;
+  color: white;
+  border: black 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+  width: 20%;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .formulaire {
+    padding: 25px;
+    background-position: left 8% bottom 50%;
+  }
+  .formulaire h3 {
+    margin: auto;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .formulaire .contactform {
+    width: 80%;
+  }
+  .formulaire .contactform .submitbutton {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .formulaire .msgonsubmit {
+    width: 100%;
+  }
+}/*# sourceMappingURL=ContactForm.css.map */
