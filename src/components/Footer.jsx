@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from "react"
+import './styles/Footer.css'
 
 function Footer(){
         const [currentYear, setCurrentYear] = useState(new Date().getFullYear())

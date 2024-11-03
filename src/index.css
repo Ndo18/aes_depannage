@@ -1,0 +1,18 @@
+/* styles.css */
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/Image_accueil_aes_depannage.jpg'); /* Chemin depuis le dossier public */
+    background-size: cover; /* L'image couvre toute la page */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    background-attachment: fixed; /* Garde l'image fixe au scroll */
+    height: 100vh;
+    overflow-x: hidden;
+}

@@ -1,19 +1,55 @@
-import Logo_aes from '../assets/logo_service_aes_miniature.webp'
+import { useState } from 'react'
+import Logo_aes from '../assets/service_aes_depannage_logo_sans_text.png'
+import Logo_aes_text from '../assets/service_aes_depannage_logo_text_only.png'
 import './styles/Navbar.css'
+import { NavLink } from 'react-router-dom'
 
 function Navbar () {
-    return(
-        <header className='Header'>
-            <img src={Logo_aes} alt="Logo Service AES Dépannage" />
-            <div className="mesinfos">
-               <a href="tel:+33695150779">
-                <i className="fa-solid fa-phone"></i>
-               </a>
-               <a href="mailto:">
-                <i className="fa-solid fa-envelope"></i>
-               </a>
-            </div>
-        </header>
-    )
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen)
+  }
+
+  const closeMenu = () => {
+    setMenuOpen(false)
+  }
+
+  return (
+    <header className='Header'>
+      <NavLink to="/"><img src={Logo_aes} alt="Logo Service AES Dépannage" /></NavLink>
+      <NavLink to="/"><img src={Logo_aes_text} alt="Text Logo Service AES Dépannage" /></NavLink>
+      <div className="mesinfos">
+        <a href="tel:+33695150779">
+          <i className="fa-solid fa-phone"></i>
+        </a>
+        <nav className="navbar">
+          <div 
+            className={`menuburger ${menuOpen ? 'open' : ''}`} 
+            onClick={toggleMenu}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul className={menuOpen ? "open" : ""}>
+            <li>
+              <a href="#Services" onClick={closeMenu}>Nos services</a>
+            </li>
+            <li>
+              <a href="#Galerie" onClick={closeMenu}>Galerie</a>
+            </li>
+            <li>
+              <a href="#Apropos" onClick={closeMenu}>À propos de nous</a>
+            </li>
+            <li>
+              <a href="#Contact" onClick={closeMenu}>Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  )
 }
+
 export default Navbar
