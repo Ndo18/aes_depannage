@@ -23,6 +23,8 @@
 }
 #Services h1 {
   text-align: center;
+  margin: 0;
+  padding-top: 60px;
 }
 #Services h1::after {
   content: "";
@@ -31,6 +33,12 @@
   width: 70px;
   height: 2px;
   margin: 8px auto 0;
+}
+#Services h1::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 80px;
 }
 
 .Noservices {

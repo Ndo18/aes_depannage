@@ -8,7 +8,7 @@ Fond avec photo du camion
 
 Bande avec les types de services 
 DEPANNAGE REMORQUAGE TRANSPORT
-DEPANNAGE ==> Quels types de véhicules (véhicule léger, utilitaires, tracteurs, fourgonnettes), dépannage sur place (mèche, remplacement de pneux, intervention batterie)
+DEPANNAGE ==> Quels types de véhicules (véhicule léger, utilitaires, tracteurs, fourgonnettes), dépannage sur place (mèche, remplacement de pneus, intervention batterie)
 
 REMORQUAGE ==> Type de véhicules
 
@@ -21,7 +21,9 @@ Pratiques d'intervention, Infos utiles type horaires, emplacement, zone d'interv
 
 MAPS d'intervention
 
-Références Certifications
+Références Certifications ==> NON
+
+Partenaires ==> En attente d'infos
 
 Formulaire de contact
 
