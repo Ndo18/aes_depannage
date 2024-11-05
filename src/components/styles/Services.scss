@@ -23,4 +23,87 @@
         position: relative;
         z-index: 1;
     }
+
+    h1{
+        text-align: center;
+
+        &::after{
+            content: "";
+            display: block;
+            background-color: white;
+            width: 70px; // Ajuste cette largeur selon la taille souhaitée
+            height: 2px; // Hauteur de la ligne sous le texte
+            margin: 8px auto 0; // Espace au-dessus pour décaler la ligne
+        
+        }
+    }
+
 }
+
+.Noservices {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    // Styles pour les icônes dans les cercles
+    .repair, .trucktow, .transport {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70px;            // Taille du cercle
+      height: 70px;
+      border-radius: 50%;     // Rend l'élément circulaire
+      background-color: rgba(0, 0, 0, 0.7);  // Couleur de fond
+      color: white;           // Couleur de l'icône
+      margin-bottom: 10px;    // Espace entre le cercle et le texte
+
+      i {
+        font-size: 1.5rem;    // Taille de l'icône
+      }
+    }
+
+    p{
+        padding-bottom: 50px;
+    }
+
+  }
+}
+
+.Noservices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+  
+    article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  
+      // Styles pour les icônes dans les anneaux
+      .repair, .trucktow, .transport {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;            // Taille de l'anneau
+        height: 70px;
+        border-radius: 50%;     // Rend l'élément circulaire
+        border: 3px solid white; // Contour blanc
+        background-color: transparent;  // Fond transparent
+        color: white;           // Couleur de l'icône
+        margin-bottom: 10px;    // Espace entre l'anneau et le texte
+  
+        i {
+          font-size: 1.5rem;    // Taille de l'icône
+        }
+      }
+    }
+  }
+  
