@@ -2,8 +2,8 @@ import './styles/Services.css'
 
 function Services () {
     return(
-        <div id="Services">
-            <h1>Services</h1>
+        <div className="Servdiv">
+            <h1 id="Services">Services</h1>
             <section className='Noservices'>
             <article>
                 <span className="repair"><i className="fa-solid fa-screwdriver-wrench"></i></span>

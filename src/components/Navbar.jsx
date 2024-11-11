@@ -34,6 +34,9 @@ function Navbar () {
           </div>
           <ul className={menuOpen ? "open" : ""}>
             <li>
+              <NavLink to="/" onClick={closeMenu}>Accueil</NavLink>
+            </li>
+            <li>
               <a href="#Services" onClick={closeMenu}>Nos services</a>
             </li>
             <li>
