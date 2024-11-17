@@ -1,0 +1,39 @@
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+    .gallery-item{
+        border: 5px solid white;
+        border-radius: 50px;
+        width: 100%;
+        height: 40vh;
+        margin: 15px;
+        animation: appear 3s;
+        animation-fill-mode: both;
+            
+            @keyframes appear {
+                0% {
+                    transform: translateY(100%);
+                    opacity: 0;
+                }
+                
+                100%{
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+            @for $i from 1 through 13{
+                &:nth-child(#{$i}){
+                    animation-delay: 100ms * $i;
+                }
+            }
+        }
+        
+        .gallery-image{
+            width: 100%;
+            height: 100%;
+            border-radius: 45px;
+        }
+    }

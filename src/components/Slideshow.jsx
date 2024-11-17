@@ -19,7 +19,7 @@ function Slideshow() {
                     />
                     {/* Affiche le bouton seulement sur la dernière diapo */}
                     {index === diapophotos.length - 1 && (
-                        <NavLink to="/Gallery"><button className="last-slide-button">Voir notre galerie</button></NavLink>
+                        <NavLink to="/Galerie"><button className="last-slide-button">Voir notre galerie</button></NavLink>
                     )}
                 </div>
             ))}

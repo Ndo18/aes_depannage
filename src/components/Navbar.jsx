@@ -40,10 +40,10 @@ function Navbar () {
               <a href="#Services" onClick={closeMenu}>Nos services</a>
             </li>
             <li>
-              <a href="#Galerie" onClick={closeMenu}>Galerie</a>
+              <NavLink to="/Galerie" onClick={closeMenu}>Galerie</NavLink>
             </li>
             <li>
-              <a href="#Apropos" onClick={closeMenu}>À propos de nous</a>
+              <NavLink to="/Apropos" onClick={closeMenu}>À propos de nous</NavLink>
             </li>
             <li>
               <a href="#Contact" onClick={closeMenu}>Contact</a>

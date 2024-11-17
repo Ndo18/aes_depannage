@@ -1,23 +1,23 @@
 [
       {
         "id": 1,
-        "url": "https://picsum.photos/400/200",
-        "alt": ""
+        "url": "Remorquage1.jpg",
+        "alt": "Remorquage voiture"
       },
       {
         "id": 2,
-        "url": "https://picsum.photos/500/300",
-        "alt": ""
+        "url": "Remorquage_van.jpg",
+        "alt": "Remorquage van"
       },
       {
         "id": 3,
-        "url": "https://picsum.photos/600/400",
-        "alt": ""
+        "url": "Remorquage_autoroute.jpg",
+        "alt": "Remorquage sur autoroute"
       },
       {
         "id": 4,
-        "url": "https://picsum.photos/700/500",
-        "alt": ""
+        "url": "Depannage_batterie.jpg",
+        "alt": "Depannage de batterie"
       }
 ]
   

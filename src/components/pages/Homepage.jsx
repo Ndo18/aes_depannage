@@ -3,7 +3,7 @@ import Slideshow from '../Slideshow'
 import Services from '../Services'
 import Window from '../Window'
 import GoodToKnow from '../GoodToKnow'
-// import ContactForm from '../ContactForm'
+import ContactForm from '../ContactForm'
 
 
 function Homepage() {
@@ -14,7 +14,7 @@ function Homepage() {
   <Services />
   <Slideshow />
   <GoodToKnow />
-  {/* <ContactForm /> */}
+  <ContactForm />
 
   
         </div>
