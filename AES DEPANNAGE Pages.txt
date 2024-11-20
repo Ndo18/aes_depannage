@@ -5,6 +5,7 @@ Page d'accueil:
 Navbar : Mettre uniquement le logo sans text à gauche, le text au milieu, les logos à droite
 
 Fond avec photo du camion
+==> Y ajouter une info type "Dépannage 24/7 dans toute l'IDF"
 
 Bande avec les types de services 
 DEPANNAGE REMORQUAGE TRANSPORT
@@ -12,9 +13,9 @@ DEPANNAGE ==> Quels types de véhicules (véhicule léger, utilitaires, tracteur
 
 REMORQUAGE ==> Type de véhicules
 
-TRANSPORT ==> Vers des garages partnaires
+TRANSPORT ==> Vers des garages partenaires
 
-Photos ==> Lien vers gallery "Notre gallerie d'intervention" ==> Diapo avec lien "Voir plus"
+Photos ==> Lien vers gallery "Notre galerie d'intervention" ==> Diapo avec lien "Voir plus"
 
 Bande
 Pratiques d'intervention, Infos utiles type horaires, emplacement, zone d'intervention 
@@ -32,7 +33,7 @@ Formulaire de contact
 
 PAGE GALLERIE:
 
-Idée gallerie ==> Mettre photo puis descrption intervention au survol avec une opacité
+Idée galerie ==> Mettre photo puis description intervention au survol avec une opacité
 
 ==============================================================================================================================================
 
