@@ -2,12 +2,14 @@
 
 * {
     scroll-behavior: smooth;
+    scroll-padding: 100px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    font-family: 'Open Sans', sans-serif;
     background-image: url('/Image_accueil_aes_depannage.jpg'); /* Chemin depuis le dossier public */
     background-size: cover; /* L'image couvre toute la page */
     background-position: center; /* Centre l'image */
@@ -15,4 +17,21 @@ body {
     background-attachment: fixed; /* Garde l'image fixe au scroll */
     height: 100vh;
     overflow-x: hidden;
+    font-size: medium;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+figcaption{
+    font-size: medium;
 }

@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "url": "axa_assistance.jpg",
+      "alt": "Logo axa",
+      "name": "Axa Assistance"
+    },
+    {
+      "id": 2,
+      "url": "Logo_Inter_mutuelles_assistance.jpg",
+      "alt": "Logo Inter Mutuelles Assistance",
+      "name": "Inter Mutuelles Assistance"
+    },
+    {
+      "id": 3,
+      "url": "europ_assistance-logo.jpg",
+      "alt": "Logo Europ Assistance",
+      "name": "Europ Assistance"
+    },
+    {
+      "id": 4,
+      "url": "Logo-Mutuaide.jpg",
+      "alt": "Logo Mutuaide Assistance",
+      "name": "Mutuaide Assistance"
+    }
+]

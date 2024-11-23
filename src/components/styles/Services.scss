@@ -1,4 +1,4 @@
-.Servdiv {
+#Servdiv {
     position: relative;
     background-image: url('/Background_metal_remorquage.jpg');
     background-size: cover;
@@ -28,7 +28,6 @@
     h1{
         text-align: center;
         margin: 0;
-        padding-top: 60px;
 
         &::after{
             content: "";
@@ -44,7 +43,7 @@
             content: "";
             display: block;
             width: 100%;
-            height: 80px;
+            height: 50px;
         }
     }
 

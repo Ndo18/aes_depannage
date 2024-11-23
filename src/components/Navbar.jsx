@@ -20,7 +20,7 @@ function Navbar () {
       <NavLink to="/"><img src={Logo_aes} alt="Logo Service AES Dépannage" /></NavLink>
       <NavLink to="/"><img src={Logo_aes_text} alt="Text Logo Service AES Dépannage" /></NavLink>
       <div className="mesinfos">
-        <a href="tel:+33695150779">
+        <a href="tel:+33612345678">
           <i className="fa-solid fa-phone"></i>
         </a>
         <nav className="navbar">
@@ -37,7 +37,7 @@ function Navbar () {
               <NavLink to="/" onClick={closeMenu}>Accueil</NavLink>
             </li>
             <li>
-              <a href="#Services" onClick={closeMenu}>Nos services</a>
+              <a href="#Servdiv" onClick={closeMenu}>Nos services</a>
             </li>
             <li>
               <NavLink to="/Galerie" onClick={closeMenu}>Galerie</NavLink>

@@ -27,13 +27,13 @@
 
 .slidesimg-container {
   width: 100%;
+  height: 45vh;
   position: relative;
 }
 .slidesimg-container .slidesimg {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 25vh;
-  width: 100%;
+  height: 100%;
 }
 .slidesimg-container .slidesimg.darken {
   filter: brightness(0.4);

@@ -1,5 +1,5 @@
 import Slideshow from '../Slideshow'
-// import Description from './components/Description'
+import Partenaires from '../Partenaires'
 import Services from '../Services'
 import Window from '../Window'
 import GoodToKnow from '../GoodToKnow'
@@ -9,14 +9,12 @@ import ContactForm from '../ContactForm'
 function Homepage() {
     return (
         <div>
-  {/* <Description /> */}
-  <Window />
-  <Services />
-  <Slideshow />
-  <GoodToKnow />
-  <ContactForm />
-
-  
+            <Window />
+            <Services />
+            <Slideshow />
+            <GoodToKnow />
+            <Partenaires />
+            <ContactForm />  
         </div>
     )
 }
