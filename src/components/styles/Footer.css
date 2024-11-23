@@ -1,4 +1,25 @@
 footer {
+  display: flex;
+  flex-direction: column;
   background-color: black;
   color: rgb(227, 167, 38);
+  font-size: smaller;
+  width: 100%;
+}
+footer .infosutiles {
+  margin: 10px 10px 0 10px;
+}
+footer .infosutiles h2 {
+  margin-bottom: 10px;
+}
+footer .infosutiles a {
+  color: rgb(227, 167, 38);
+  font-size: large;
+  margin-right: 5px;
+}
+footer .copyright p {
+  margin: 0 10px 10px 10px;
+}
+footer .suiveznoustitle {
+  margin-top: 10px;
 }/*# sourceMappingURL=Footer.css.map */

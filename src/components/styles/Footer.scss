@@ -1,4 +1,31 @@
 footer{
+    display: flex;
+    flex-direction: column;
     background-color: black;
     color: rgb(227, 167, 38);
+    font-size: smaller;
+    width: 100%;
+    
+    .infosutiles{
+        margin: 10px 10px 0 10px;
+        h2{
+            margin-bottom: 10px;
+        }
+        
+        a{
+            color: rgb(227, 167, 38);
+            font-size: large;
+            margin-right: 5px;
+        }
+    }
+
+    .copyright{
+        p{
+            margin: 0 10px 10px 10px;
+        }
+    }
+
+    .suiveznoustitle{
+        margin-top: 10px;
+    }
 }
