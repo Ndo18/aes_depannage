@@ -1,8 +1,12 @@
 @charset "UTF-8";
 .Header {
   display: flex;
+  flex-direction: row;
   background-color: black;
-  justify-content: space-between;
+  align-items: center;
+}
+.Header .monlogo {
+  display: flex;
   align-items: center;
 }
 .Header a img {
@@ -15,10 +19,16 @@
   display: flex;
   padding: 0 10px 0 0;
 }
+.Header .mesinfos .numtel {
+  display: none;
+}
 .Header .mesinfos i {
   margin-right: 10px;
   font-size: 25px;
   color: rgb(227, 167, 38);
+}
+.Header .logoaesdesktop {
+  display: none;
 }
 
 header {
@@ -93,5 +103,38 @@ header .navbar .menuburger {
   }
   header .navbar ul.open {
     transform: translateX(0);
+  }
+}
+/* Pour les tablettes (entre 768px et 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+}
+/* Pour les desktops (1024px et plus) */
+@media (min-width: 1024px) {
+  .Header {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .Header .navbar ul {
+    gap: 50px;
+  }
+  .Header .navbar ul .numtel {
+    display: block;
+    margin-right: 50px;
+    border: 2px solid rgb(227, 167, 38);
+    border-radius: 5px;
+  }
+  .Header .monlogo {
+    display: block;
+    width: 13%;
+  }
+  .Header .iconetel, .Header .logoaesresponsive, .Header .logoaestext {
+    display: none;
+  }
+  .Header .logoaesdesktop {
+    display: flex;
+    margin-left: 15px;
   }
 }/*# sourceMappingURL=Navbar.css.map */
