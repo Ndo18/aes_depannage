@@ -95,4 +95,26 @@
 }
 .Noservices article .repair i, .Noservices article .trucktow i, .Noservices article .transport i {
   font-size: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  #Servdiv {
+    height: 50vh;
+  }
+  #Servdiv .Noservices {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+  }
+  #Servdiv .Noservices article {
+    align-items: center;
+  }
+  #Servdiv h1 {
+    text-align: start;
+    margin-left: 20px;
+  }
+  #Servdiv h1::after {
+    width: 10vh;
+    margin: 0;
+  }
 }/*# sourceMappingURL=Services.css.map */

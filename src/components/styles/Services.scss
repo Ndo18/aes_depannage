@@ -116,3 +116,28 @@
     }
   }
   
+  @media (min-width: 1024px) {
+    #Servdiv{
+      height: 50vh;
+
+      .Noservices{
+       display: flex;
+       flex-direction: row;
+       margin-top: 45px;
+
+       article{
+        align-items: center;
+       }
+      }
+      h1{
+        text-align: start;
+        margin-left: 20px;
+  
+        &::after{
+          width: 10vh;
+          margin: 0;
+        }
+      }
+    }
+
+  }
