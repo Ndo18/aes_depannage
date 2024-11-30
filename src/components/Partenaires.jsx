@@ -6,7 +6,7 @@ function Partenaires() {
     return(
         <div className='description-container'>
             <h1 className='partner-title'>Ils nous font confiance</h1>
-            <div className="mes-articles mes-partners">
+            <div className="mes-partners">
                 {LogoPartners.map((partners) => (
                     <figure key={partners.id}>
                         <img src={partners.url} alt={partners.alt} />
