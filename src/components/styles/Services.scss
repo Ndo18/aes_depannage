@@ -115,6 +115,8 @@
       }
     }
   }
+
+  //MEDIA QUERRY DESKTOP
   
   @media (min-width: 1024px) {
     #Servdiv{
@@ -134,7 +136,7 @@
         margin-left: 20px;
   
         &::after{
-          width: 10vh;
+          width: 8vh;
           margin: 0;
         }
       }
