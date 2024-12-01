@@ -4,14 +4,48 @@
     height: 61vh;
 
     .windowinfo{
-        width: 25vh;
-        height: 15vh;
-        background-color: black;
+
+        // margin: auto;
+        font-size: medium;
+        width: 80%;
+        // height: 15vh;
+        background-color: rgba(0, 0, 0, 0.5);
         color: white;
         border: 2px solid rgb(227, 167, 38);
         margin: auto;
         text-align: center;
-        font-size: larger;
-        align-content: center;
+        padding: 10px;
+        overflow: hidden;
+
+        .schedules{
+            margin-top: 5px;
+        }
+
+        .appelnous{
+            display: none;
+        }
+     
+    }
+}
+
+//MEDIA QUERY DESKTOP
+
+@media (min-width: 1024px){
+    .windowopen{
+        .windowinfo{
+            width: auto;
+            height: auto;
+            font-size: large;
+
+            .appelnous{
+                display: block;
+                font-size: larger;
+                background-color: rgb(227, 167, 38);
+                color: black;
+                border-radius: 35px;
+                width: 40%;
+                margin: auto;
+            }
+        }
     }
 }

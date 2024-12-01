@@ -4,13 +4,36 @@
   height: 61vh;
 }
 .windowopen .windowinfo {
-  width: 25vh;
-  height: 15vh;
-  background-color: black;
+  font-size: medium;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: 2px solid rgb(227, 167, 38);
   margin: auto;
   text-align: center;
-  font-size: larger;
-  align-content: center;
+  padding: 10px;
+  overflow: hidden;
+}
+.windowopen .windowinfo .schedules {
+  margin-top: 5px;
+}
+.windowopen .windowinfo .appelnous {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .windowopen .windowinfo {
+    width: auto;
+    height: auto;
+    font-size: large;
+  }
+  .windowopen .windowinfo .appelnous {
+    display: block;
+    font-size: larger;
+    background-color: rgb(227, 167, 38);
+    color: black;
+    border-radius: 35px;
+    width: 40%;
+    margin: auto;
+  }
 }/*# sourceMappingURL=Window.css.map */

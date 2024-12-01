@@ -52,11 +52,6 @@ function Navbar () {
             <li>
               <a href="/#Contact" onClick={closeMenu}>Contact</a>
             </li>
-            <li>
-              <a href="tel:+33612345678" className='numtel'>
-                <i className="fa-solid fa-phone"></i><span>0612345678</span>
-              </a>
-            </li>
           </ul>
         </nav>
       </div>

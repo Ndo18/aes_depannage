@@ -119,12 +119,7 @@ header .navbar .menuburger {
   }
   .Header .navbar ul {
     gap: 50px;
-  }
-  .Header .navbar ul .numtel {
-    display: block;
-    margin-right: 50px;
-    border: 2px solid rgb(227, 167, 38);
-    border-radius: 5px;
+    margin-right: 25px;
   }
   .Header .monlogo {
     display: block;
