@@ -37,4 +37,16 @@
 
 hr {
   margin: 10px;
+}
+
+@media (min-width: 1024px) {
+  .Apropos #apropostitle {
+    text-align: start;
+  }
+  .Apropos #apropostitle::after {
+    margin: 0;
+  }
+  .Apropos .textapropos {
+    height: 50vh;
+  }
 }/*# sourceMappingURL=Apropos.css.map */

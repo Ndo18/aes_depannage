@@ -42,3 +42,20 @@
 hr{
     margin: 10px;
 }
+
+//MEDIA QUERY DESKTOP
+
+@media (min-width: 1024px){
+    .Apropos{
+        #apropostitle{
+            text-align: start;
+
+            &::after{
+                margin: 0;
+            }
+        }
+        .textapropos{
+            height: 50vh;
+        }
+    }
+}
