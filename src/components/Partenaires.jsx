@@ -18,3 +18,5 @@ function Partenaires() {
     )
 }
 export default Partenaires
+
+//Modifier aussi le css mobile first

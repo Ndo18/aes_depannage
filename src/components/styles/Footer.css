@@ -6,13 +6,24 @@ footer {
   font-size: smaller;
   width: 100%;
 }
-footer .infosutiles {
+footer .infos-container li:hover {
+  cursor: pointer;
+  background-color: rgb(227, 167, 38);
+  color: black;
+}
+footer .logoaesdesktop {
+  display: none;
+}
+footer .infosutiles, footer .infos-qui-sn {
   margin: 10px 10px 0 10px;
 }
-footer .infosutiles h2 {
+footer .infosutiles h2, footer .infos-qui-sn h2 {
   margin-bottom: 10px;
 }
-footer .infosutiles a {
+footer .liensreseaux {
+  margin: 0px 10px 0 10px;
+}
+footer .liensreseaux a {
   color: rgb(227, 167, 38);
   font-size: large;
   margin-right: 5px;
@@ -22,4 +33,21 @@ footer .copyright p {
 }
 footer .suiveznoustitle {
   margin-top: 10px;
+}
+
+@media (min-width: 1024px) {
+  footer .logoaesdesktop {
+    display: flex;
+    width: 100%;
+  }
+  footer .infos-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .infos-container a {
+    width: 10%;
+  }
+  footer .copyright p {
+    text-align: center;
+  }
 }/*# sourceMappingURL=Footer.css.map */

@@ -27,21 +27,20 @@
 .description-container .mes-partners {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   margin: 20px;
   padding: 20px;
   justify-content: center;
 }
 .description-container .mes-partners figure {
+  width: 70%;
   margin: 15px 0 15px 0;
 }
 .description-container .mes-partners img {
   width: 100%;
-  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
-  background-color: rgba(255, 255, 255, 0.6);
 }
 .description-container .mes-partners figcaption {
   text-align: center;
