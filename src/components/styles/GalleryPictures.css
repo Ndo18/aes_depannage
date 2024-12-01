@@ -66,4 +66,18 @@
   width: 100%;
   height: 100%;
   border-radius: 45px;
+}
+
+@media (min-width: 1024px) {
+  .gallery-container {
+    justify-content: center;
+    padding: 30px;
+  }
+  .gallery-container .gallery-item {
+    width: 23%;
+  }
+  .gallery-container .gallery-item .gallery-image {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }/*# sourceMappingURL=GalleryPictures.css.map */

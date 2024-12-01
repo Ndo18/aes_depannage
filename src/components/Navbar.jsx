@@ -41,7 +41,7 @@ function Navbar () {
               <NavLink to="/" onClick={closeMenu}>Accueil</NavLink>
             </li>
             <li>
-              <a href="#Servdiv" onClick={closeMenu}>Nos services</a>
+              <a href="/#Servdiv" onClick={closeMenu}>Nos services</a>
             </li>
             <li>
               <NavLink to="/Galerie" onClick={closeMenu}>Galerie</NavLink>
@@ -50,7 +50,7 @@ function Navbar () {
               <NavLink to="/Apropos" onClick={closeMenu}>À propos de nous</NavLink>
             </li>
             <li>
-              <a href="#Contact" onClick={closeMenu}>Contact</a>
+              <a href="/#Contact" onClick={closeMenu}>Contact</a>
             </li>
             <li>
               <a href="tel:+33612345678" className='numtel'>

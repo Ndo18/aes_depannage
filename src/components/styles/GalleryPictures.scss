@@ -37,3 +37,20 @@
             border-radius: 45px;
         }
     }
+
+    //MEDIA QUERY DESKTOP
+
+@media (min-width: 1024px){
+    .gallery-container{
+        justify-content: center;
+        padding: 30px;
+
+        .gallery-item{
+            width: 23%;
+
+            .gallery-image{
+                object-fit: cover;
+            }
+        }
+    }
+}

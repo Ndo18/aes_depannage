@@ -9,12 +9,14 @@ import Footer from './components/Footer.jsx'
 import Gallery from './components/pages/Gallery.jsx'
 import Apropos from './components/pages/Apropos.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
+// import ScrollToAnchor from './components/ScrollToAnchor.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <Navbar />
       <ScrollToTop />
+      {/* <ScrollToAnchor /> */}
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/Galerie' element={<Gallery />} />
