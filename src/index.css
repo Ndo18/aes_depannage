@@ -35,3 +35,11 @@ h3{
 figcaption{
     font-size: medium;
 }
+
+/* MEDIA QUERY DESKTOP */
+
+@media (min-width: 1024px){
+    *{
+        scroll-padding: 200px;
+    }
+}
