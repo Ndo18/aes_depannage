@@ -1,10 +1,6 @@
 #Servdiv {
   position: relative;
-  background-image: url("/Background_metal_remorquage.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: linear-gradient(180deg, #000000, #3a3a3a, #6e6e6e);
   color: white;
 }
 #Servdiv::before {

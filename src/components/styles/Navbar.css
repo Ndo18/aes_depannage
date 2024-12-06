@@ -132,4 +132,7 @@ header .navbar .menuburger {
     display: flex;
     margin-left: 15px;
   }
+  .Header a img {
+    width: 60%;
+  }
 }/*# sourceMappingURL=Navbar.css.map */

@@ -5,7 +5,6 @@
             color: white;
             z-index: 1; // Assure que le texte est au-dessus du pseudo-élément
             text-align: center;
-            height: 80px;
             padding: 11px;
         
             &::before {

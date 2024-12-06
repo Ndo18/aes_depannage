@@ -3,7 +3,6 @@
   color: white;
   z-index: 1;
   text-align: center;
-  height: 80px;
   padding: 11px;
 }
 .description-container .partner-title::before {
