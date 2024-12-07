@@ -10,6 +10,7 @@ function Window() {
             <div className="windowinfo">
                 <p>Professionnel du dépannage, remorquage et transport
                     des véhicules légers et poids lourds</p> <br />
+                <p><i className="fa-solid fa-location-dot"></i><br /><strong>Interventions sur toutes <br />l'Île-de-France</strong></p><br />
                 <p className='schedules'><i className="fa-regular fa-clock"></i><br /><strong>24H/24 & 7J/7</strong></p> <br />
                 <p className='appelnous'>Appelez-nous <br /> <strong>{numero}</strong></p>
             </div>

@@ -7,6 +7,7 @@ function GalleryPictures() {
             {Gallerypics.map((picture) => (
                 <div key={picture.id} className="gallery-item">
                     <img 
+                        // src={`${picture.url}`}
                         src={picture.url}
                         alt={picture.alt} 
                         className="gallery-image" 

@@ -8,7 +8,11 @@ function useScrollToAnchor() {
     if (location.hash) {
       const element = document.querySelector(location.hash);
       if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+        const yOffset = -20; // Définir le padding (ex : 100px)
+        const yPosition =
+          element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+        window.scrollTo({ top: yPosition, behavior: "smooth" });
       }
     }
   }, [location]);

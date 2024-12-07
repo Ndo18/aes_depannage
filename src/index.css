@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(135deg, #000000, #3a3a3a, #6e6e6e);
+    background: linear-gradient(180deg, #000000 50%, #3a3a3a 75%, #6e6e6e 100%);
     /* background-image: url('/Image_accueil_aes_depannage.jpg'); Chemin depuis le dossier public */
     background-size: cover; /* L'image couvre toute la page */
     background-position: center; /* Centre l'image */

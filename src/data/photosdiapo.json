@@ -1,23 +1,22 @@
 [
-      {
-        "id": 1,
-        "url": "Remorquage1.jpg",
-        "alt": "Remorquage voiture"
-      },
-      {
-        "id": 2,
-        "url": "Remorquage_van.jpg",
-        "alt": "Remorquage van"
-      },
-      {
-        "id": 3,
-        "url": "Remorquage_autoroute.jpg",
-        "alt": "Remorquage sur autoroute"
-      },
-      {
-        "id": 4,
-        "url": "Depannage_batterie.jpg",
-        "alt": "Depannage de batterie"
-      }
+  {
+    "id": 1,
+    "url": "Remorquage1.jpg",
+    "alt": "Remorquage voiture"
+  },
+  {
+    "id": 2,
+    "url": "Remorquage_van.jpg",
+    "alt": "Remorquage van"
+  },
+  {
+    "id": 3,
+    "url": "Remorquage_autoroute.jpg",
+    "alt": "Remorquage sur autoroute"
+  },
+  {
+    "id": 4,
+    "url": "Depannage_batterie.jpg",
+    "alt": "Depannage de batterie"
+  }
 ]
-  

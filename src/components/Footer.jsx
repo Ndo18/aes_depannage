@@ -32,7 +32,7 @@ function Footer(){
                         <li>Mentions légales & Confidentialité</li>
                         <li>Dépannage & remorquage VL</li>
                         <li>Dépannage & remorquage PL</li>
-                        <li>Transpot</li>
+                        <li>Transport</li>
                         <li>Fourrière</li>
                     </ul>
             </div>
