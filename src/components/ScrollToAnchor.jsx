@@ -8,7 +8,7 @@ function useScrollToAnchor() {
     if (location.hash) {
       const element = document.querySelector(location.hash);
       if (element) {
-        const yOffset = -20; // Définir le padding (ex : 100px)
+        const yOffset = -30; // Définir le padding (ex : 100px)
         const yPosition =
           element.getBoundingClientRect().top + window.pageYOffset + yOffset;
 

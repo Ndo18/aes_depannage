@@ -14,7 +14,6 @@ function Slideshow() {
                     {/* Applique la classe darken si c'est la dernière image */}
                     <img 
                         src={slides.url}
-                        // src={`${slides.url}`}
                         alt={slides.alt} 
                         className={`slidesimg ${index === diapophotos.length - 1 ? 'darken' : ''}`} 
                     />
