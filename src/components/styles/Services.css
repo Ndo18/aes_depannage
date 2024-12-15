@@ -54,6 +54,9 @@
   background-color: rgb(227, 167, 38);
   padding: 10px 50px;
   border-radius: 20px;
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
 }
 .Noservices article .repair, .Noservices article .trucktow, .Noservices article .transport {
   display: flex;
