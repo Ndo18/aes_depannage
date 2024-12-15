@@ -16,6 +16,7 @@ function Slideshow() {
                         src={slides.url}
                         alt={slides.alt} 
                         className={`slidesimg ${index === diapophotos.length - 1 ? 'darken' : ''}`} 
+                        loading='lazy'
                     />
                     {/* Affiche le bouton seulement sur la dernière diapo */}
                     {index === diapophotos.length - 1 && (

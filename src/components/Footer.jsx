@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react"
 import './styles/Footer.css'
 import { NavLink } from 'react-router-dom'
-import Logo_aes_desktop from '../assets/service_aes_depannage_logo.png'
+import LogoDesktop from '../assets/logo_service_aes_miniature.webp'
 
 function Footer(){
         const [currentYear, setCurrentYear] = useState(new Date().getFullYear())
@@ -17,7 +17,7 @@ function Footer(){
     return(
         <footer className="footer">
         <div className="infos-container">
-        <NavLink to="/"><img src={Logo_aes_desktop} alt="Logo Service AES Dépannage desktop" className='logoaesdesktop'/></NavLink>
+        <NavLink to="/"><img src={LogoDesktop} alt="Logo Service AES Dépannage desktop" className='logoaesdesktop' loading="lazy"/></NavLink>
             <div className="infos-qui-sn">
                 <h2 className="quisn-title">Qui sommes-nous ?</h2>
                     <ul>

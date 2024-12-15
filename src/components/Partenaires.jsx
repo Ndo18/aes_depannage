@@ -9,7 +9,7 @@ function Partenaires() {
             <div className="mes-partners">
                 {LogoPartners.map((partners) => (
                     <figure key={partners.id}>
-                        <img src={`${partners.url}`} alt={partners.alt} />
+                        <img src={`${partners.url}`} alt={partners.alt} loading='lazy'/>
                         <figcaption>{partners.name}</figcaption>
                     </figure>
                 ))}

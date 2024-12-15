@@ -9,7 +9,8 @@ function GalleryPictures() {
                     <img 
                         src={picture.url}
                         alt={picture.alt} 
-                        className="gallery-image" 
+                        className="gallery-image"
+                        loading='lazy'
                     />
                 </div>
             ))}

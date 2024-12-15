@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Logo_aes from '../assets/service_aes_depannage_logo_sans_text.png'
 import Logo_aes_text from '../assets/service_aes_depannage_logo_text_only.png'
-import Logo_aes_desktop from '../assets/service_aes_depannage_logo.png'
+import LogoDesktop from '../assets/logo_service_aes_miniature.webp'
 import './styles/Navbar.css'
 import { NavLink } from 'react-router-dom'
 
@@ -19,9 +19,9 @@ function Navbar () {
   return (
     <header className='Header'>
       <div className="monlogo">
-        <NavLink to="/"><img src={Logo_aes} alt="Logo Service AES Dépannage" className='logoaesresponsive'/></NavLink>
-        <NavLink to="/"><img src={Logo_aes_text} alt="Text Logo Service AES Dépannage" className='logoaestext'/></NavLink>
-        <NavLink to="/"><img src={Logo_aes_desktop} alt="Logo Service AES Dépannage desktop" className='logoaesdesktop'/></NavLink>
+        <NavLink to="/"><img src={Logo_aes} alt="Logo Service AES Dépannage" className='logoaesresponsive' loading='lazy'/></NavLink>
+        <NavLink to="/"><img src={Logo_aes_text} alt="Text Logo Service AES Dépannage" className='logoaestext' loading='lazy'/></NavLink>
+        <NavLink to="/"><img src={LogoDesktop} alt="Logo Service AES Dépannage desktop" className='logoaesdesktop' loading='lazy'/></NavLink>
       </div>
         <div className="mesinfos">
         <a href="tel:+33612345678" className='iconetel'>
