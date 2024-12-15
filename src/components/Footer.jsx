@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react"
 import './styles/Footer.css'
 import { NavLink } from 'react-router-dom'
-import LogoDesktop from '../assets/logo_service_aes_miniature.webp'
+import LogoDesktop from '../assets/service_aes_depannage_logo.png'
 
 function Footer(){
         const [currentYear, setCurrentYear] = useState(new Date().getFullYear())

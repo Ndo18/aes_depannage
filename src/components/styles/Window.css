@@ -23,7 +23,12 @@
   margin-top: 5px;
 }
 .windowopen .windowinfo .appelnous {
-  display: none;
+  font-size: medium;
+  background-color: rgb(227, 167, 38);
+  color: black;
+  border-radius: 35px;
+  width: 75%;
+  margin: auto;
 }
 
 @media (min-width: 1024px) {

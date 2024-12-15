@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import Logo_aes from '../assets/service_aes_depannage_logo_sans_text.jpg'
-import Logo_aes_text from '../assets/service_aes_depannage_logo_text_only.jpg'
-import LogoDesktop from '../assets/logo_service_aes_miniature.webp'
+import Logo_aes from '../assets/service_aes_depannage_logo_sans_text.png'
+import Logo_aes_text from '../assets/service_aes_depannage_logo_text_only.png'
+import LogoDesktop from '../assets/service_aes_depannage_logo.png'
 import './styles/Navbar.css'
 import { NavLink } from 'react-router-dom'
 
