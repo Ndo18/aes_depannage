@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "url": "axa_assistance.webp",
+      "url": "axa_assistance.jpg",
       "alt": "Logo axa",
       "name": "Axa Assistance"
     },
@@ -13,13 +13,13 @@
     },
     {
       "id": 3,
-      "url": "europ_assistance-logo.webp",
+      "url": "europ_assistance-logo.jpg",
       "alt": "Logo Europ Assistance",
       "name": "Europ Assistance"
     },
     {
       "id": 4,
-      "url": "Logo-Mutuaide.webp",
+      "url": "Logo-Mutuaide.jpg",
       "alt": "Logo Mutuaide Assistance",
       "name": "Mutuaide Assistance"
     }
