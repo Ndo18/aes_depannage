@@ -8,7 +8,7 @@ function Services () {
             <article className='repairart'>
                 <span className="repair"><i className="fa-solid fa-screwdriver-wrench"></i></span>
                 <h2>Dépannage</h2>
-                <img src={`${import.meta.env.BASE_URL}/photodepannageart2.webp"`} alt="photo de depannage" loading='lazy' />
+                <img src={`${import.meta.env.BASE_URL}/photodepannageart2.webp`} alt="photo de depannage" loading='lazy' />
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta sint natus enim iure saepe quod ipsum provident blanditiis fuga consequuntur.</p>
                 <button>En savoir plus</button>
             </article>
