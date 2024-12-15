@@ -78,6 +78,12 @@
   // MEDIA QUERIES
   @media (max-width: 768px) {
     header {
+      .monlogo{
+        margin: auto;
+      }
+      .mesinfos{
+        margin: auto;
+      }
       .navbar {
         .menuburger {
           display: flex;

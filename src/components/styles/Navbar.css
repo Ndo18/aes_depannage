@@ -65,6 +65,12 @@ header .navbar .menuburger {
 }
 
 @media (max-width: 768px) {
+  header .monlogo {
+    margin: auto;
+  }
+  header .mesinfos {
+    margin: auto;
+  }
   header .navbar .menuburger {
     display: flex;
     flex-direction: column;
