@@ -4,6 +4,10 @@
   flex-direction: row;
   background-color: black;
   align-items: center;
+  justify-content: space-between;
+}
+.Header .logoaestext {
+  margin: 10px;
 }
 .Header .monlogo {
   display: flex;
