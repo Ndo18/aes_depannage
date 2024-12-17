@@ -44,7 +44,7 @@
 }
 .Noservices article img {
   width: 100%;
-  margin: 15px 0 15px 0;
+  margin-top: 15px;
   border-radius: 10px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -73,7 +73,8 @@
   font-size: 1.5rem;
 }
 .Noservices article p {
-  padding-bottom: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
 .Noservices {
@@ -113,6 +114,9 @@
   #Servdiv .Noservices article {
     align-items: center;
     width: 31%;
+  }
+  #Servdiv .Noservices article img {
+    height: 35vh;
   }
   #Servdiv h1 {
     text-align: start;
